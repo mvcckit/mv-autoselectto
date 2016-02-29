@@ -18,7 +18,7 @@ mvcc.com.create({
     	var char = el.getAttribute('autoselectto') || '.';
         if (el.value.indexOf(char) > -1) {
             el.selectionStart = 0;
-            el.selectionEnd = el.value.indexOf('.');
+            el.selectionEnd = el.value.indexOf(char);
         }
         else {
             el.select();
