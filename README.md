@@ -4,7 +4,7 @@
 
 The autoselectto directive selects text inside a textbox up to a specified character.
 
-## Building mv-autoselect
+## Building mv-autoselectto
 
 Once you have your environment setup, run:
 
