@@ -16,7 +16,6 @@
 mvcc.com.create({
     init: function (el) {
         var char = el.getAttribute('mv-autoselectto') || '.';
-
         if (el.value.indexOf(char) > -1) {
             el.selectionStart = 0;
             el.selectionEnd = el.value.indexOf(char);
